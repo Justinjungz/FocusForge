@@ -11,15 +11,15 @@ export const Footer = () => {
                             <img src={logo} className="w-7 h-7" alt="FocusForge"/>
                             <span className="text-lg font-semibold text-heading-1">FocusForge</span>
                         </div>
-                    </div>
 
-                    <ul className="flex gap-6 text-heading-1">
-                        {navItems.map((item, key) => (
-                            <NavItem key={key}
+                        <ul className="flex gap-6 text-heading-1">
+                            {navItems.map((item, key) => (
+                                <NavItem key={key}
                                      href={item.href}
                                      text={item.text} />
-                        ))}
-                    </ul>
+                            ))}
+                        </ul>
+                    </div>
                 </Container>
         </footer>
     );
