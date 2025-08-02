@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" fill="none">
+  <!-- Controller base -->
+  <path d="M20 60 Q20 20, 60 20 H140 Q180 20, 180 60 Q180 100, 140 100 H60 Q20 100, 20 60 Z" fill="#5f27cd" stroke="#2c0f59" stroke-width="4"></path>
+
+  <!-- D-Pad -->
+  <rect x="40" y="50" width="8" height="20" fill="#2c0f59"></rect>
+  <rect x="34" y="56" width="20" height="8" fill="#2c0f59"></rect>
+
+  <!-- Clock Circle -->
+  <circle cx="100" cy="60" r="15" stroke="#2c0f59" stroke-width="4" fill="none"></circle>
+  <line x1="100" y1="60" x2="100" y2="50" stroke="#2c0f59" stroke-width="3"></line>
+  <line x1="100" y1="60" x2="108" y2="66" stroke="#2c0f59" stroke-width="3"></line>
+
+  <!-- Task List (Checkmarks) -->
+  <polyline points="125,48 130,53 138,45" stroke="#2c0f59" stroke-width="3" fill="none"></polyline>
+  <line x1="142" y1="49" x2="160" y2="49" stroke="#2c0f59" stroke-width="3"></line>
+
+  <polyline points="125,60 130,65 138,57" stroke="#2c0f59" stroke-width="3" fill="none"></polyline>
+  <line x1="142" y1="61" x2="160" y2="61" stroke="#2c0f59" stroke-width="3"></line>
+
+  <polyline points="125,72 130,77 138,69" stroke="#2c0f59" stroke-width="3" fill="none"></polyline>
+  <line x1="142" y1="73" x2="160" y2="73" stroke="#2c0f59" stroke-width="3"></line>
+</svg>

@@ -1,9 +1,18 @@
+import { Layout } from "./components/Layout";
+import { Hero } from "./components/sections/Hero";
+import { Services } from "./components/sections/Services";
+import { AboutUs } from "./components/sections/AboutUs";
+import { CTA } from "./components/sections/CallToAction";
+
 function App() {
   return (
-    <main className="py-10 bg-red-50 h-screen">
-      <h1 className="text-red-50 font-bold text-3xl text-center">Seems legit!</h1>
-    </main>
-  )
+    <Layout title="FocusForge">
+    <Hero />
+    <Services />
+    <AboutUs />
+    <CTA />
+    </Layout>
+  );
 }
 
 export default App
